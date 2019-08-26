@@ -12,3 +12,4 @@ sdk
 /Build/Debug
 /Build/cmdtool.dir/Debug
 /Build/wsPublish.dir/Debug
+*.user
