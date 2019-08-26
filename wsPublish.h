@@ -28,6 +28,7 @@
 #define WSPUBLISH_H
 
 #include <stdint.h>
+#include <malloc.h>
 
 #ifdef __cplusplus
 extern "C" {

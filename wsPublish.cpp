@@ -132,7 +132,10 @@ public:
 		RemoteStorageEnumerateUserPublishedFilesResult_t *result,
 		bool bIOFailure
 	) {
-		uint64_t retVals[result->m_nResultsReturned];
+		uint64_t *retVals;
+
+		retVals = (uint64_t*)alloca(result->m_nResultsReturned);
+
 		int32_t i;
 		if (!bIOFailure)
 		{
