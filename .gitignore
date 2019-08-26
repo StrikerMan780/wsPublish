@@ -1,0 +1,14 @@
+sdk
+*.log
+*.tlog
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+*.ipch
+*.obj
+*.exp
+/Build/.vs
+/Build/Debug
+/Build/cmdtool.dir/Debug
+/Build/wsPublish.dir/Debug
